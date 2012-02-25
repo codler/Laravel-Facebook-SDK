@@ -4,7 +4,7 @@
 
 ### Aritsan
 
-	php artisan bundle:install facebook
+	php artisan bundle:install facebook-sdk
 
 ### Bundle Registration
 
