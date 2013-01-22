@@ -1,10 +1,10 @@
 <?php
 /**
- * @author Han Lin Yap < http://zencodez.net/ >
- * @copyright 2012 zencodez.net
+ * @author Han Lin Yap < http://yap.nu/ >
+ * @copyright 2013 yap.nu
  * @license http://creativecommons.org/licenses/by-sa/3.0/
  * @package Facebook SDK (Laravel Bundle)
- * @version 1.0 - 2012-02-25
+ * @version 1.1 - 2013-01-22
  */
 
 Autoloader::map(array(
