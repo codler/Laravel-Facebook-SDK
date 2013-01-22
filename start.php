@@ -14,8 +14,8 @@ Autoloader::map(array(
 Laravel\IoC::singleton('facebook-sdk', function()
 {
     $config = array();
-	$config['appId'] = Config::get('facebook.app_id');
-	$config['secret'] = Config::get('facebook.secret');
+	$config['appId'] = Config::get('facebook-sdk::facebook.app_id');
+	$config['secret'] = Config::get('facebook-sdk::facebook.secret');
 	$config['fileUpload'] = true; // optional
 
 	return new Facebook($config);
